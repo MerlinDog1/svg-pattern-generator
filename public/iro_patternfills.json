@@ -1,0 +1,780 @@
+{
+  "patterns": [
+    {
+      "id": "circles-1",
+      "name": "Circles 1",
+      "width": 10,
+      "height": 10,
+      "viewBoxHeight": 10,
+      "mode": "svg",
+      "svgPath": "<circle cx=\"1\" cy=\"1\" r=\"1\" fill=\"#000000\"/>",
+      "tags": [
+        "iro",
+        "circles",
+        "geometric",
+        "circles",
+        "dots"
+      ]
+    },
+    {
+      "id": "circles-2",
+      "name": "Circles 2",
+      "width": 10,
+      "height": 10,
+      "viewBoxHeight": 10,
+      "mode": "svg",
+      "svgPath": "<circle cx='1.5' cy='1.5' r='1.5' fill='#000000'/><rect width='10' height='10' fill='#ffffff' />",
+      "tags": [
+        "iro",
+        "circles",
+        "geometric",
+        "circles",
+        "dots"
+      ]
+    },
+    {
+      "id": "circles-3",
+      "name": "Circles 3",
+      "width": 10,
+      "height": 10,
+      "viewBoxHeight": 10,
+      "mode": "svg",
+      "svgPath": "<circle cx='2' cy='2' r='2' fill='#000000'/><rect width='10' height='10' fill='#ffffff' />",
+      "tags": [
+        "iro",
+        "circles",
+        "geometric",
+        "circles",
+        "dots"
+      ]
+    },
+    {
+      "id": "circles-4",
+      "name": "Circles 4",
+      "width": 10,
+      "height": 10,
+      "viewBoxHeight": 10,
+      "mode": "svg",
+      "svgPath": "<circle cx='2.5' cy='2.5' r='2.5' fill='#000000'/><rect width='10' height='10' fill='#ffffff' />",
+      "tags": [
+        "iro",
+        "circles",
+        "geometric",
+        "circles",
+        "dots"
+      ]
+    },
+    {
+      "id": "circles-5",
+      "name": "Circles 5",
+      "width": 10,
+      "height": 10,
+      "viewBoxHeight": 10,
+      "mode": "svg",
+      "svgPath": "<circle cx='3' cy='3' r='3' fill='#000000'/><rect width='10' height='10' fill='#ffffff' />",
+      "tags": [
+        "iro",
+        "circles",
+        "geometric",
+        "circles",
+        "dots"
+      ]
+    },
+    {
+      "id": "circles-6",
+      "name": "Circles 6",
+      "width": 10,
+      "height": 10,
+      "viewBoxHeight": 10,
+      "mode": "svg",
+      "svgPath": "<circle cx='3.5' cy='3.5' r='3.5' fill='#000000'/><rect width='10' height='10' fill='#ffffff' />",
+      "tags": [
+        "iro",
+        "circles",
+        "geometric",
+        "circles",
+        "dots"
+      ]
+    },
+    {
+      "id": "circles-7",
+      "name": "Circles 7",
+      "width": 10,
+      "height": 10,
+      "viewBoxHeight": 10,
+      "mode": "svg",
+      "svgPath": "<circle cx='4' cy='4' r='4' fill='#000000'/><rect width='10' height='10' fill='#ffffff' />",
+      "tags": [
+        "iro",
+        "circles",
+        "geometric",
+        "circles",
+        "dots"
+      ]
+    },
+    {
+      "id": "circles-8",
+      "name": "Circles 8",
+      "width": 10,
+      "height": 10,
+      "viewBoxHeight": 10,
+      "mode": "svg",
+      "svgPath": "<circle cx='4.5' cy='4.5' r='4.5' fill='#000000'/><rect width='10' height='10' fill='#ffffff' />",
+      "tags": [
+        "iro",
+        "circles",
+        "geometric",
+        "circles",
+        "dots"
+      ]
+    },
+    {
+      "id": "circles-9",
+      "name": "Circles 9",
+      "width": 10,
+      "height": 10,
+      "viewBoxHeight": 10,
+      "mode": "svg",
+      "svgPath": "<circle cx='5' cy='5' r='5' fill='#000000'/><rect width='10' height='10' fill='#ffffff' />",
+      "tags": [
+        "iro",
+        "circles",
+        "geometric",
+        "circles",
+        "dots"
+      ]
+    },
+    {
+      "id": "diagonal-stripe-1",
+      "name": "Diagonal Stripe 1",
+      "width": 10,
+      "height": 10,
+      "viewBoxHeight": 10,
+      "mode": "svg",
+      "svgPath": "<path d=\"M-1,1 l2,-2\n           M0,10 l10,-10\n           M9,11 l2,-2\"/><rect width='10' height='10' fill='#ffffff'/>",
+      "tags": [
+        "iro",
+        "diagonal",
+        "diagonal",
+        "stripe",
+        "angled"
+      ]
+    },
+    {
+      "id": "diagonal-stripe-2",
+      "name": "Diagonal Stripe 2",
+      "width": 10,
+      "height": 10,
+      "viewBoxHeight": 10,
+      "mode": "svg",
+      "svgPath": "<path d=\"M-1,1 l2,-2\n           M0,10 l10,-10\n           M9,11 l2,-2\"/><rect width='10' height='10' fill='#ffffff'/>",
+      "tags": [
+        "iro",
+        "diagonal",
+        "diagonal",
+        "stripe",
+        "angled"
+      ]
+    },
+    {
+      "id": "diagonal-stripe-3",
+      "name": "Diagonal Stripe 3",
+      "width": 10,
+      "height": 10,
+      "viewBoxHeight": 10,
+      "mode": "svg",
+      "svgPath": "<path d=\"M-1,1 l2,-2\n           M0,10 l10,-10\n           M9,11 l2,-2\"/><rect width='10' height='10' fill='#ffffff'/>",
+      "tags": [
+        "iro",
+        "diagonal",
+        "diagonal",
+        "stripe",
+        "angled"
+      ]
+    },
+    {
+      "id": "diagonal-stripe-4",
+      "name": "Diagonal Stripe 4",
+      "width": 10,
+      "height": 10,
+      "viewBoxHeight": 10,
+      "mode": "svg",
+      "svgPath": "<path d=\"M-1,1 l2,-2\n           M0,10 l10,-10\n           M9,11 l2,-2\"/><rect width='10' height='10' fill='#000000'/>",
+      "tags": [
+        "iro",
+        "diagonal",
+        "diagonal",
+        "stripe",
+        "angled"
+      ]
+    },
+    {
+      "id": "diagonal-stripe-5",
+      "name": "Diagonal Stripe 5",
+      "width": 10,
+      "height": 10,
+      "viewBoxHeight": 10,
+      "mode": "svg",
+      "svgPath": "<path d=\"M-1,1 l2,-2\n           M0,10 l10,-10\n           M9,11 l2,-2\"/><rect width='10' height='10' fill='#000000'/>",
+      "tags": [
+        "iro",
+        "diagonal",
+        "diagonal",
+        "stripe",
+        "angled"
+      ]
+    },
+    {
+      "id": "diagonal-stripe-6",
+      "name": "Diagonal Stripe 6",
+      "width": 10,
+      "height": 10,
+      "viewBoxHeight": 10,
+      "mode": "svg",
+      "svgPath": "<path d=\"M-1,1 l2,-2\n           M0,10 l10,-10\n           M9,11 l2,-2\"/><rect width='10' height='10' fill='#000000'/>",
+      "tags": [
+        "iro",
+        "diagonal",
+        "diagonal",
+        "stripe",
+        "angled"
+      ]
+    },
+    {
+      "id": "dots-1",
+      "name": "Dots 1",
+      "width": 10,
+      "height": 10,
+      "viewBoxHeight": 10,
+      "mode": "svg",
+      "svgPath": "<rect width='10' height='10' fill='#ffffff' /><rect x='0' y='0' width='1' height='1' fill='#000000' />",
+      "tags": [
+        "iro",
+        "dots",
+        "geometric",
+        "circles",
+        "dots"
+      ]
+    },
+    {
+      "id": "dots-2",
+      "name": "Dots 2",
+      "width": 10,
+      "height": 10,
+      "viewBoxHeight": 10,
+      "mode": "svg",
+      "svgPath": "<rect width='10' height='10' fill='#ffffff' /><rect x='0' y='0' width='2' height='2' fill='#000000' />",
+      "tags": [
+        "iro",
+        "dots",
+        "geometric",
+        "circles",
+        "dots"
+      ]
+    },
+    {
+      "id": "dots-3",
+      "name": "Dots 3",
+      "width": 10,
+      "height": 10,
+      "viewBoxHeight": 10,
+      "mode": "svg",
+      "svgPath": "<rect width='10' height='10' fill='#ffffff' /><rect x='0' y='0' width='3' height='3' fill='#000000' />",
+      "tags": [
+        "iro",
+        "dots",
+        "geometric",
+        "circles",
+        "dots"
+      ]
+    },
+    {
+      "id": "dots-4",
+      "name": "Dots 4",
+      "width": 10,
+      "height": 10,
+      "viewBoxHeight": 10,
+      "mode": "svg",
+      "svgPath": "<rect width='10' height='10' fill='#ffffff' /><rect x='0' y='0' width='4' height='4' fill='#000000' />",
+      "tags": [
+        "iro",
+        "dots",
+        "geometric",
+        "circles",
+        "dots"
+      ]
+    },
+    {
+      "id": "dots-5",
+      "name": "Dots 5",
+      "width": 10,
+      "height": 10,
+      "viewBoxHeight": 10,
+      "mode": "svg",
+      "svgPath": "<rect width='10' height='10' fill='#ffffff' /><rect x='0' y='0' width='5' height='5' fill='#000000' />",
+      "tags": [
+        "iro",
+        "dots",
+        "geometric",
+        "circles",
+        "dots"
+      ]
+    },
+    {
+      "id": "dots-6",
+      "name": "Dots 6",
+      "width": 10,
+      "height": 10,
+      "viewBoxHeight": 10,
+      "mode": "svg",
+      "svgPath": "<rect width='10' height='10' fill='#ffffff' /><rect x='0' y='0' width='6' height='6' fill='#000000' />",
+      "tags": [
+        "iro",
+        "dots",
+        "geometric",
+        "circles",
+        "dots"
+      ]
+    },
+    {
+      "id": "dots-7",
+      "name": "Dots 7",
+      "width": 10,
+      "height": 10,
+      "viewBoxHeight": 10,
+      "mode": "svg",
+      "svgPath": "<rect width='10' height='10' fill='#ffffff' /><rect x='0' y='0' width='7' height='7' fill='#000000' />",
+      "tags": [
+        "iro",
+        "dots",
+        "geometric",
+        "circles",
+        "dots"
+      ]
+    },
+    {
+      "id": "dots-8",
+      "name": "Dots 8",
+      "width": 10,
+      "height": 10,
+      "viewBoxHeight": 10,
+      "mode": "svg",
+      "svgPath": "<rect width='10' height='10' fill='#ffffff' /><rect x='0' y='0' width='8' height='8' fill='#000000' />",
+      "tags": [
+        "iro",
+        "dots",
+        "geometric",
+        "circles",
+        "dots"
+      ]
+    },
+    {
+      "id": "dots-9",
+      "name": "Dots 9",
+      "width": 10,
+      "height": 10,
+      "viewBoxHeight": 10,
+      "mode": "svg",
+      "svgPath": "<rect width='10' height='10' fill='#ffffff' /><rect x='0' y='0' width='9' height='9' fill='#000000' />",
+      "tags": [
+        "iro",
+        "dots",
+        "geometric",
+        "circles",
+        "dots"
+      ]
+    },
+    {
+      "id": "horizontal-stripe-1",
+      "name": "Horizontal Stripe 1",
+      "width": 10,
+      "height": 10,
+      "viewBoxHeight": 10,
+      "mode": "svg",
+      "svgPath": "<rect width='10' height='10' fill='#ffffff' /><rect x='0' y='0' width='10' height='1' fill='#000000' />",
+      "tags": [
+        "iro",
+        "horizontal",
+        "horizontal",
+        "stripe"
+      ]
+    },
+    {
+      "id": "horizontal-stripe-2",
+      "name": "Horizontal Stripe 2",
+      "width": 10,
+      "height": 10,
+      "viewBoxHeight": 10,
+      "mode": "svg",
+      "svgPath": "<rect width='10' height='10' fill='#ffffff' /><rect x='0' y='0' width='10' height='2' fill='#000000' />",
+      "tags": [
+        "iro",
+        "horizontal",
+        "horizontal",
+        "stripe"
+      ]
+    },
+    {
+      "id": "horizontal-stripe-3",
+      "name": "Horizontal Stripe 3",
+      "width": 10,
+      "height": 10,
+      "viewBoxHeight": 10,
+      "mode": "svg",
+      "svgPath": "<rect width='10' height='10' fill='#ffffff' /><rect x='0' y='0' width='10' height='3' fill='#000000' />",
+      "tags": [
+        "iro",
+        "horizontal",
+        "horizontal",
+        "stripe"
+      ]
+    },
+    {
+      "id": "horizontal-stripe-4",
+      "name": "Horizontal Stripe 4",
+      "width": 10,
+      "height": 10,
+      "viewBoxHeight": 10,
+      "mode": "svg",
+      "svgPath": "<rect width='10' height='10' fill='#ffffff' /><rect x='0' y='0' width='10' height='4' fill='#000000' />",
+      "tags": [
+        "iro",
+        "horizontal",
+        "horizontal",
+        "stripe"
+      ]
+    },
+    {
+      "id": "horizontal-stripe-5",
+      "name": "Horizontal Stripe 5",
+      "width": 10,
+      "height": 10,
+      "viewBoxHeight": 10,
+      "mode": "svg",
+      "svgPath": "<rect width='10' height='10' fill='#ffffff' /><rect x='0' y='0' width='10' height='5' fill='#000000' />",
+      "tags": [
+        "iro",
+        "horizontal",
+        "horizontal",
+        "stripe"
+      ]
+    },
+    {
+      "id": "horizontal-stripe-6",
+      "name": "Horizontal Stripe 6",
+      "width": 10,
+      "height": 10,
+      "viewBoxHeight": 10,
+      "mode": "svg",
+      "svgPath": "<rect width='10' height='10' fill='#ffffff' /><rect x='0' y='0' width='10' height='6' fill='#000000' />",
+      "tags": [
+        "iro",
+        "horizontal",
+        "horizontal",
+        "stripe"
+      ]
+    },
+    {
+      "id": "horizontal-stripe-7",
+      "name": "Horizontal Stripe 7",
+      "width": 10,
+      "height": 10,
+      "viewBoxHeight": 10,
+      "mode": "svg",
+      "svgPath": "<rect width='10' height='10' fill='#ffffff' /><rect x='0' y='0' width='10' height='7' fill='#000000' />",
+      "tags": [
+        "iro",
+        "horizontal",
+        "horizontal",
+        "stripe"
+      ]
+    },
+    {
+      "id": "horizontal-stripe-8",
+      "name": "Horizontal Stripe 8",
+      "width": 10,
+      "height": 10,
+      "viewBoxHeight": 10,
+      "mode": "svg",
+      "svgPath": "<rect width='10' height='10' fill='#ffffff' /><rect x='0' y='0' width='10' height='8' fill='#000000' />",
+      "tags": [
+        "iro",
+        "horizontal",
+        "horizontal",
+        "stripe"
+      ]
+    },
+    {
+      "id": "horizontal-stripe-9",
+      "name": "Horizontal Stripe 9",
+      "width": 10,
+      "height": 10,
+      "viewBoxHeight": 10,
+      "mode": "svg",
+      "svgPath": "<rect width='10' height='10' fill='#ffffff' /><rect x='0' y='0' width='10' height='9' fill='#000000' />",
+      "tags": [
+        "iro",
+        "horizontal",
+        "horizontal",
+        "stripe"
+      ]
+    },
+    {
+      "id": "vertical-stripe-1",
+      "name": "Vertical Stripe 1",
+      "width": 10,
+      "height": 10,
+      "viewBoxHeight": 10,
+      "mode": "svg",
+      "svgPath": "<rect width='10' height='10' fill='#ffffff' /><rect x='0' y='0' width='1' height='10' fill='#000000' />",
+      "tags": [
+        "iro",
+        "vertical",
+        "vertical",
+        "stripe"
+      ]
+    },
+    {
+      "id": "vertical-stripe-2",
+      "name": "Vertical Stripe 2",
+      "width": 10,
+      "height": 10,
+      "viewBoxHeight": 10,
+      "mode": "svg",
+      "svgPath": "<rect width='10' height='10' fill='#ffffff' /><rect x='0' y='0' width='2' height='10' fill='#000000' />",
+      "tags": [
+        "iro",
+        "vertical",
+        "vertical",
+        "stripe"
+      ]
+    },
+    {
+      "id": "vertical-stripe-3",
+      "name": "Vertical Stripe 3",
+      "width": 10,
+      "height": 10,
+      "viewBoxHeight": 10,
+      "mode": "svg",
+      "svgPath": "<rect width='10' height='10' fill='#ffffff' /><rect x='0' y='0' width='3' height='10' fill='#000000' />",
+      "tags": [
+        "iro",
+        "vertical",
+        "vertical",
+        "stripe"
+      ]
+    },
+    {
+      "id": "vertical-stripe-4",
+      "name": "Vertical Stripe 4",
+      "width": 10,
+      "height": 10,
+      "viewBoxHeight": 10,
+      "mode": "svg",
+      "svgPath": "<rect width='10' height='10' fill='#ffffff' /><rect x='0' y='0' width='4' height='10' fill='#000000' />",
+      "tags": [
+        "iro",
+        "vertical",
+        "vertical",
+        "stripe"
+      ]
+    },
+    {
+      "id": "vertical-stripe-5",
+      "name": "Vertical Stripe 5",
+      "width": 10,
+      "height": 10,
+      "viewBoxHeight": 10,
+      "mode": "svg",
+      "svgPath": "<rect width='10' height='10' fill='#ffffff' /><rect x='0' y='0' width='5' height='10' fill='#000000' />",
+      "tags": [
+        "iro",
+        "vertical",
+        "vertical",
+        "stripe"
+      ]
+    },
+    {
+      "id": "vertical-stripe-6",
+      "name": "Vertical Stripe 6",
+      "width": 10,
+      "height": 10,
+      "viewBoxHeight": 10,
+      "mode": "svg",
+      "svgPath": "<rect width='10' height='10' fill='#ffffff' /><rect x='0' y='0' width='6' height='10' fill='#000000' />",
+      "tags": [
+        "iro",
+        "vertical",
+        "vertical",
+        "stripe"
+      ]
+    },
+    {
+      "id": "vertical-stripe-7",
+      "name": "Vertical Stripe 7",
+      "width": 10,
+      "height": 10,
+      "viewBoxHeight": 10,
+      "mode": "svg",
+      "svgPath": "<rect width='10' height='10' fill='#ffffff' /><rect x='0' y='0' width='7' height='10' fill='#000000' />",
+      "tags": [
+        "iro",
+        "vertical",
+        "vertical",
+        "stripe"
+      ]
+    },
+    {
+      "id": "vertical-stripe-8",
+      "name": "Vertical Stripe 8",
+      "width": 10,
+      "height": 10,
+      "viewBoxHeight": 10,
+      "mode": "svg",
+      "svgPath": "<rect width='10' height='10' fill='#ffffff' /><rect x='0' y='0' width='8' height='10' fill='#000000' />",
+      "tags": [
+        "iro",
+        "vertical",
+        "vertical",
+        "stripe"
+      ]
+    },
+    {
+      "id": "vertical-stripe-9",
+      "name": "Vertical Stripe 9",
+      "width": 10,
+      "height": 10,
+      "viewBoxHeight": 10,
+      "mode": "svg",
+      "svgPath": "<rect width='10' height='10' fill='#ffffff' /><rect x='0' y='0' width='9' height='10' fill='#000000' />",
+      "tags": [
+        "iro",
+        "vertical",
+        "vertical",
+        "stripe"
+      ]
+    },
+    {
+      "id": "crosshatch",
+      "name": "Crosshatch",
+      "width": 8,
+      "height": 8,
+      "viewBoxHeight": 8,
+      "mode": "svg",
+      "svgPath": "<path d=\"M0 0L8 8ZM8 0L0 8Z\"/><rect width='8' height='8' fill='#fff'/>",
+      "tags": [
+        "iro",
+        "other",
+        "crosshatch",
+        "cross",
+        "grid"
+      ]
+    },
+    {
+      "id": "houndstooth",
+      "name": "Houndstooth",
+      "width": 10,
+      "height": 10,
+      "viewBoxHeight": 10,
+      "mode": "svg",
+      "svgPath": "<path d=\"M0 0L4 4\"/><path d=\"M2.5 0L5 2.5L5 5L9 9L5 5L10 5L10 0\"/><path d=\"M5 10L5 7.5L7.5 10\"/>",
+      "tags": [
+        "iro",
+        "other",
+        "houndstooth",
+        "checks",
+        "geometric"
+      ]
+    },
+    {
+      "id": "lightstripe",
+      "name": "Lightstripe",
+      "width": 5,
+      "height": 5,
+      "viewBoxHeight": 5,
+      "mode": "svg",
+      "svgPath": "<path d=\"M0 5L5 0ZM6 4L4 6ZM-1 1L1 -1Z\"/><rect width='5' height='5' fill='white'/>",
+      "tags": [
+        "iro",
+        "other"
+      ]
+    },
+    {
+      "id": "smalldot",
+      "name": "Smalldot",
+      "width": 5,
+      "height": 5,
+      "viewBoxHeight": 5,
+      "mode": "svg",
+      "svgPath": "<rect width='5' height='5' fill='#fff'/><rect width='1' height='1' fill='#ccc'/>",
+      "tags": [
+        "iro",
+        "other",
+        "geometric",
+        "circles",
+        "dots"
+      ]
+    },
+    {
+      "id": "subtle-patch",
+      "name": "Subtle Patch",
+      "width": 5,
+      "height": 5,
+      "viewBoxHeight": 5,
+      "mode": "svg",
+      "svgPath": "<rect width='5' height='5' fill='#ffffff' /><rect x='2' y='2' width='1' height='1' fill='#000000' />",
+      "tags": [
+        "iro",
+        "other"
+      ]
+    },
+    {
+      "id": "verticalstripe",
+      "name": "Verticalstripe",
+      "width": 6,
+      "height": 49,
+      "viewBoxHeight": 49,
+      "mode": "svg",
+      "svgPath": "<rect width='3' height='50' fill='#fff'/><rect x='3' width='1' height='50' fill='#ccc'/>",
+      "tags": [
+        "iro",
+        "other",
+        "vertical",
+        "stripe"
+      ]
+    },
+    {
+      "id": "whitecarbon",
+      "name": "Whitecarbon",
+      "width": 6,
+      "height": 6,
+      "viewBoxHeight": 6,
+      "mode": "svg",
+      "svgPath": "<rect width='6' height='6' fill='#eeeeee'/><rect width='3' height='3' fill='#e6e6e6'/><rect y='1' width='3' height='2' fill='#d8d8d8'/>",
+      "tags": [
+        "iro",
+        "other",
+        "carbon",
+        "grid",
+        "complex"
+      ]
+    }
+  ],
+  "metadata": {
+    "source": "iros/patternfills GitHub repository",
+    "url": "https://github.com/iros/patternfills",
+    "description": "Extracted SVG patterns from actual repository files",
+    "extraction_date": "2025-10-29",
+    "total_patterns": 49,
+    "categories": [
+      "1-circles",
+      "2-diagonal-stripe",
+      "3-dots",
+      "4-horizontal-stripe",
+      "5-vertical-stripe",
+      "6-other"
+    ],
+    "license": "MIT",
+    "notes": "All SVG content extracted from actual repository files via GitHub API"
+  }
+}

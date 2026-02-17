@@ -1,0 +1,278 @@
+[
+  {
+    "id": "diamond_interlock_pattern",
+    "name": "Diamond Interlock Pattern",
+    "width": 120.0,
+    "height": 120.0,
+    "viewBoxHeight": 120.0,
+    "mode": "stroke",
+    "svgPath": "<ns0:svg xmlns:ns0=\"http://www.w3.org/2000/svg\" width=\"120\" height=\"120\" viewBox=\"0 0 120 120\">\n  <ns0:defs>\n    <ns0:pattern id=\"diamondInterlockPattern\" x=\"0\" y=\"0\" width=\"60\" height=\"60\" patternUnits=\"userSpaceOnUse\">\n      <ns0:polygon points=\"30,5 45,20 30,35 15,20\" fill=\"none\" stroke=\"#4682B4\" stroke-width=\"1.5\" />\n      <ns0:polygon points=\"30,25 45,40 30,55 15,40\" fill=\"none\" stroke=\"#4682B4\" stroke-width=\"1.5\" />\n      <ns0:polygon points=\"15,40 30,25 45,40 30,55\" fill=\"none\" stroke=\"#4682B4\" stroke-width=\"1.5\" />\n      <ns0:circle cx=\"30\" cy=\"30\" r=\"3\" fill=\"none\" stroke=\"#4682B4\" stroke-width=\"1\" />\n    </ns0:pattern>\n  </ns0:defs>\n  <ns0:rect width=\"120\" height=\"120\" fill=\"url(#diamondInterlockPattern)\" />\n</ns0:svg>",
+    "tags": [
+      "islamic",
+      "geometric",
+      "pattern",
+      "tiling",
+      "diamond",
+      "interlace"
+    ]
+  },
+  {
+    "id": "eight_point_star_pattern",
+    "name": "Eight Point Star Pattern",
+    "width": 180.0,
+    "height": 180.0,
+    "viewBoxHeight": 180.0,
+    "mode": "stroke",
+    "svgPath": "<ns0:svg xmlns:ns0=\"http://www.w3.org/2000/svg\" width=\"180\" height=\"180\" viewBox=\"0 0 180 180\">\n  <ns0:defs>\n    <ns0:pattern id=\"eightPointStarPattern\" x=\"0\" y=\"0\" width=\"90\" height=\"90\" patternUnits=\"userSpaceOnUse\">\n      <ns0:polygon points=\"45,10 55,30 75,30 60,45 75,60 55,60 45,45 35,60 15,60 30,45 15,30 35,30\" fill=\"none\" stroke=\"#8B4513\" stroke-width=\"1.5\" />\n      <ns0:polygon points=\"45,25 50,35 60,35 52,42 55,52 45,47 35,52 38,42 30,35 40,35\" fill=\"none\" stroke=\"#8B4513\" stroke-width=\"1\" />\n      <ns0:circle cx=\"45\" cy=\"45\" r=\"10\" fill=\"none\" stroke=\"#8B4513\" stroke-width=\"1\" />\n    </ns0:pattern>\n  </ns0:defs>\n  <ns0:rect width=\"180\" height=\"180\" fill=\"url(#eightPointStarPattern)\" />\n</ns0:svg>",
+    "tags": [
+      "islamic",
+      "geometric",
+      "pattern",
+      "tiling",
+      "star"
+    ]
+  },
+  {
+    "id": "floral_arabesque_pattern",
+    "name": "Floral Arabesque Pattern",
+    "width": 180.0,
+    "height": 180.0,
+    "viewBoxHeight": 180.0,
+    "mode": "stroke",
+    "svgPath": "<ns0:svg xmlns:ns0=\"http://www.w3.org/2000/svg\" width=\"180\" height=\"180\" viewBox=\"0 0 180 180\">\n  <ns0:defs>\n    <ns0:pattern id=\"floralArabesquePattern\" x=\"0\" y=\"0\" width=\"90\" height=\"90\" patternUnits=\"userSpaceOnUse\">\n      <ns0:path d=\"M45,10 Q30,25 45,40 Q60,25 45,10\" fill=\"none\" stroke=\"#DAA520\" stroke-width=\"1.5\" />\n      <ns0:path d=\"M45,50 Q30,65 45,80 Q60,65 45,50\" fill=\"none\" stroke=\"#DAA520\" stroke-width=\"1.5\" />\n      <ns0:path d=\"M10,45 Q25,30 40,45 Q25,60 10,45\" fill=\"none\" stroke=\"#DAA520\" stroke-width=\"1.5\" />\n      <ns0:path d=\"M50,45 Q65,30 80,45 Q65,60 50,45\" fill=\"none\" stroke=\"#DAA520\" stroke-width=\"1.5\" />\n      <ns0:circle cx=\"45\" cy=\"45\" r=\"8\" fill=\"none\" stroke=\"#DAA520\" stroke-width=\"1\" />\n      <ns0:polygon points=\"45,30 48,42 60,42 50,48 52,60 45,54 38,60 40,48 30,42 42,42\" fill=\"none\" stroke=\"#DAA520\" stroke-width=\"1\" />\n    </ns0:pattern>\n  </ns0:defs>\n  <ns0:rect width=\"180\" height=\"180\" fill=\"url(#floralArabesquePattern)\" />\n</ns0:svg>",
+    "tags": [
+      "islamic",
+      "geometric",
+      "pattern",
+      "tiling",
+      "arabesque",
+      "floral"
+    ]
+  },
+  {
+    "id": "islamic_arabesque_pattern",
+    "name": "Islamic Arabesque Pattern",
+    "width": 120.0,
+    "height": 120.0,
+    "viewBoxHeight": 120.0,
+    "mode": "stroke",
+    "svgPath": "<ns0:svg xmlns:ns0=\"http://www.w3.org/2000/svg\" width=\"120\" height=\"120\" viewBox=\"0 0 120 120\">\n  <ns0:defs>\n    <ns0:pattern id=\"arabesquePattern\" x=\"0\" y=\"0\" width=\"60\" height=\"60\" patternUnits=\"userSpaceOnUse\">\n      <ns0:path d=\"M10,30 Q30,10 50,30 Q30,50 10,30\" fill=\"none\" stroke=\"#4A90E2\" stroke-width=\"1.5\" />\n      <ns0:path d=\"M15,35 Q30,20 45,35 Q30,50 15,35\" fill=\"none\" stroke=\"#4A90E2\" stroke-width=\"1\" />\n      <ns0:circle cx=\"30\" cy=\"30\" r=\"4\" fill=\"none\" stroke=\"#4A90E2\" stroke-width=\"1\" />\n    </ns0:pattern>\n  </ns0:defs>\n  <ns0:rect width=\"120\" height=\"120\" fill=\"url(#arabesquePattern)\" />\n</ns0:svg>",
+    "tags": [
+      "islamic",
+      "geometric",
+      "pattern",
+      "tiling",
+      "arabesque"
+    ]
+  },
+  {
+    "id": "islamic_border_pattern",
+    "name": "Islamic Border Pattern",
+    "width": 140.0,
+    "height": 140.0,
+    "viewBoxHeight": 140.0,
+    "mode": "stroke",
+    "svgPath": "<ns0:svg xmlns:ns0=\"http://www.w3.org/2000/svg\" width=\"140\" height=\"140\" viewBox=\"0 0 140 140\">\n  <ns0:defs>\n    <ns0:pattern id=\"islamicBorderPattern\" x=\"0\" y=\"0\" width=\"70\" height=\"70\" patternUnits=\"userSpaceOnUse\">\n      <ns0:path d=\"M5,35 Q20,20 35,35 Q50,50 35,65 Q20,50 5,35\" fill=\"none\" stroke=\"#B8860B\" stroke-width=\"2\" />\n      <ns0:path d=\"M20,35 Q35,25 50,35 Q65,45 50,55 Q35,65 20,55 Q5,45 20,35\" fill=\"none\" stroke=\"#B8860B\" stroke-width=\"1.5\" />\n      <ns0:circle cx=\"35\" cy=\"35\" r=\"6\" fill=\"none\" stroke=\"#B8860B\" stroke-width=\"1\" />\n      <ns0:circle cx=\"35\" cy=\"35\" r=\"3\" fill=\"#B8860B\" />\n    </ns0:pattern>\n  </ns0:defs>\n  <ns0:rect width=\"140\" height=\"140\" fill=\"url(#islamicBorderPattern)\" />\n</ns0:svg>",
+    "tags": [
+      "islamic",
+      "geometric",
+      "pattern",
+      "tiling",
+      "border"
+    ]
+  },
+  {
+    "id": "islamic_calligraphy_pattern",
+    "name": "Islamic Calligraphy Pattern",
+    "width": 140.0,
+    "height": 140.0,
+    "viewBoxHeight": 140.0,
+    "mode": "stroke",
+    "svgPath": "<ns0:svg xmlns:ns0=\"http://www.w3.org/2000/svg\" width=\"140\" height=\"140\" viewBox=\"0 0 140 140\">\n  <ns0:defs>\n    <ns0:pattern id=\"arabicCalligraphyPattern\" x=\"0\" y=\"0\" width=\"70\" height=\"70\" patternUnits=\"userSpaceOnUse\">\n      <ns0:path d=\"M10,35 Q35,15 60,35 Q35,55 10,35\" fill=\"none\" stroke=\"#8B0000\" stroke-width=\"2\" />\n      <ns0:path d=\"M15,40 Q35,25 55,40 Q35,55 15,40\" fill=\"none\" stroke=\"#8B0000\" stroke-width=\"1.5\" />\n      <ns0:path d=\"M25,45 Q35,35 45,45 Q35,55 25,45\" fill=\"none\" stroke=\"#8B0000\" stroke-width=\"1\" />\n      <ns0:circle cx=\"35\" cy=\"35\" r=\"5\" fill=\"#8B0000\" />\n    </ns0:pattern>\n  </ns0:defs>\n  <ns0:rect width=\"140\" height=\"140\" fill=\"url(#arabicCalligraphyPattern)\" />\n</ns0:svg>",
+    "tags": [
+      "islamic",
+      "geometric",
+      "pattern",
+      "tiling",
+      "calligraphy"
+    ]
+  },
+  {
+    "id": "islamic_compound_pattern",
+    "name": "Islamic Compound Pattern",
+    "width": 200.0,
+    "height": 200.0,
+    "viewBoxHeight": 200.0,
+    "mode": "stroke",
+    "svgPath": "<ns0:svg xmlns:ns0=\"http://www.w3.org/2000/svg\" width=\"200\" height=\"200\" viewBox=\"0 0 200 200\">\n  <ns0:defs>\n    <ns0:pattern id=\"islamicCompoundPattern\" x=\"0\" y=\"0\" width=\"100\" height=\"100\" patternUnits=\"userSpaceOnUse\">\n      <ns0:polygon points=\"50,10 60,30 80,30 65,45 80,60 60,60 50,45 40,60 20,60 35,45 20,30 40,30\" fill=\"none\" stroke=\"#FF6347\" stroke-width=\"2\" />\n      <ns0:circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"none\" stroke=\"#FF6347\" stroke-width=\"1.5\" />\n      <ns0:circle cx=\"50\" cy=\"50\" r=\"10\" fill=\"#FF6347\" />\n      <ns0:polygon points=\"50,35 55,45 65,45 57,50 60,60 50,55 40,60 43,50 35,45 45,45\" fill=\"none\" stroke=\"#FF6347\" stroke-width=\"1\" />\n    </ns0:pattern>\n  </ns0:defs>\n  <ns0:rect width=\"200\" height=\"200\" fill=\"url(#islamicCompoundPattern)\" />\n</ns0:svg>",
+    "tags": [
+      "islamic",
+      "geometric",
+      "pattern",
+      "tiling",
+      "compound"
+    ]
+  },
+  {
+    "id": "islamic_cross_pattern",
+    "name": "Islamic Cross Pattern",
+    "width": 160.0,
+    "height": 160.0,
+    "viewBoxHeight": 160.0,
+    "mode": "stroke",
+    "svgPath": "<ns0:svg xmlns:ns0=\"http://www.w3.org/2000/svg\" width=\"160\" height=\"160\" viewBox=\"0 0 160 160\">\n  <ns0:defs>\n    <ns0:pattern id=\"islamicCrossPattern\" x=\"0\" y=\"0\" width=\"80\" height=\"80\" patternUnits=\"userSpaceOnUse\">\n      <ns0:rect x=\"35\" y=\"15\" width=\"10\" height=\"50\" fill=\"none\" stroke=\"#FF8C00\" stroke-width=\"2\" />\n      <ns0:rect x=\"15\" y=\"35\" width=\"50\" height=\"10\" fill=\"none\" stroke=\"#FF8C00\" stroke-width=\"2\" />\n      <ns0:circle cx=\"40\" cy=\"40\" r=\"8\" fill=\"none\" stroke=\"#FF8C00\" stroke-width=\"1.5\" />\n      <ns0:polygon points=\"40,25 45,35 55,35 47,40 50,50 40,45 30,50 33,40 25,35 35,35\" fill=\"none\" stroke=\"#FF8C00\" stroke-width=\"1\" />\n    </ns0:pattern>\n  </ns0:defs>\n  <ns0:rect width=\"160\" height=\"160\" fill=\"url(#islamicCrossPattern)\" />\n</ns0:svg>",
+    "tags": [
+      "islamic",
+      "geometric",
+      "pattern",
+      "tiling",
+      "cross"
+    ]
+  },
+  {
+    "id": "islamic_floral_vine_pattern",
+    "name": "Islamic Floral Vine Pattern",
+    "width": 150.0,
+    "height": 150.0,
+    "viewBoxHeight": 150.0,
+    "mode": "stroke",
+    "svgPath": "<ns0:svg xmlns:ns0=\"http://www.w3.org/2000/svg\" width=\"150\" height=\"150\" viewBox=\"0 0 150 150\">\n  <ns0:defs>\n    <ns0:pattern id=\"islamicFloralVinePattern\" x=\"0\" y=\"0\" width=\"75\" height=\"75\" patternUnits=\"userSpaceOnUse\">\n      <ns0:path d=\"M10,65 Q25,45 37.5,55 Q50,65 62.5,55 Q75,45 65,65\" fill=\"none\" stroke=\"#9370DB\" stroke-width=\"2\" />\n      <ns0:path d=\"M15,60 Q25,50 35,55 Q45,60 55,55\" fill=\"none\" stroke=\"#9370DB\" stroke-width=\"1.5\" />\n      <ns0:circle cx=\"25\" cy=\"55\" r=\"4\" fill=\"none\" stroke=\"#9370DB\" stroke-width=\"1\" />\n      <ns0:circle cx=\"45\" cy=\"55\" r=\"4\" fill=\"none\" stroke=\"#9370DB\" stroke-width=\"1\" />\n      <ns0:circle cx=\"37.5\" cy=\"55\" r=\"3\" fill=\"#9370DB\" />\n    </ns0:pattern>\n  </ns0:defs>\n  <ns0:rect width=\"150\" height=\"150\" fill=\"url(#islamicFloralVinePattern)\" />\n</ns0:svg>",
+    "tags": [
+      "islamic",
+      "geometric",
+      "pattern",
+      "tiling",
+      "floral"
+    ]
+  },
+  {
+    "id": "islamic_geometric_tile",
+    "name": "Islamic Geometric Tile",
+    "width": 160.0,
+    "height": 160.0,
+    "viewBoxHeight": 160.0,
+    "mode": "stroke",
+    "svgPath": "<ns0:svg xmlns:ns0=\"http://www.w3.org/2000/svg\" width=\"160\" height=\"160\" viewBox=\"0 0 160 160\">\n  <ns0:defs>\n    <ns0:pattern id=\"geometricTilePattern\" x=\"0\" y=\"0\" width=\"80\" height=\"80\" patternUnits=\"userSpaceOnUse\">\n      <ns0:polygon points=\"40,5 55,25 75,25 60,45 75,65 55,65 40,45 25,65 5,65 20,45 5,25 25,25\" fill=\"none\" stroke=\"#800080\" stroke-width=\"1.5\" />\n      <ns0:rect x=\"25\" y=\"25\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"#800080\" stroke-width=\"1\" />\n      <ns0:circle cx=\"40\" cy=\"40\" r=\"8\" fill=\"none\" stroke=\"#800080\" stroke-width=\"1\" />\n    </ns0:pattern>\n  </ns0:defs>\n  <ns0:rect width=\"160\" height=\"160\" fill=\"url(#geometricTilePattern)\" />\n</ns0:svg>",
+    "tags": [
+      "islamic",
+      "geometric",
+      "pattern",
+      "tiling",
+      "geometric",
+      "tile"
+    ]
+  },
+  {
+    "id": "islamic_interlace_pattern",
+    "name": "Islamic Interlace Pattern",
+    "width": 140.0,
+    "height": 140.0,
+    "viewBoxHeight": 140.0,
+    "mode": "stroke",
+    "svgPath": "<ns0:svg xmlns:ns0=\"http://www.w3.org/2000/svg\" width=\"140\" height=\"140\" viewBox=\"0 0 140 140\">\n  <ns0:defs>\n    <ns0:pattern id=\"islamicInterlacePattern\" x=\"0\" y=\"0\" width=\"70\" height=\"70\" patternUnits=\"userSpaceOnUse\">\n      <ns0:path d=\"M5,20 L20,5 L35,20 L50,5 L65,20\" fill=\"none\" stroke=\"#20B2AA\" stroke-width=\"2\" />\n      <ns0:path d=\"M5,35 L20,50 L35,35 L50,50 L65,35\" fill=\"none\" stroke=\"#20B2AA\" stroke-width=\"2\" />\n      <ns0:path d=\"M20,35 L35,20 L50,35 L35,50 L20,35\" fill=\"none\" stroke=\"#20B2AA\" stroke-width=\"2\" />\n      <ns0:circle cx=\"35\" cy=\"35\" r=\"8\" fill=\"none\" stroke=\"#20B2AA\" stroke-width=\"1.5\" />\n    </ns0:pattern>\n  </ns0:defs>\n  <ns0:rect width=\"140\" height=\"140\" fill=\"url(#islamicInterlacePattern)\" />\n</ns0:svg>",
+    "tags": [
+      "islamic",
+      "geometric",
+      "pattern",
+      "tiling",
+      "interlace"
+    ]
+  },
+  {
+    "id": "islamic_mandala_pattern",
+    "name": "Islamic Mandala Pattern",
+    "width": 180.0,
+    "height": 180.0,
+    "viewBoxHeight": 180.0,
+    "mode": "stroke",
+    "svgPath": "<ns0:svg xmlns:ns0=\"http://www.w3.org/2000/svg\" width=\"180\" height=\"180\" viewBox=\"0 0 180 180\">\n  <ns0:defs>\n    <ns0:pattern id=\"mandalaPattern\" x=\"0\" y=\"0\" width=\"90\" height=\"90\" patternUnits=\"userSpaceOnUse\">\n      <ns0:circle cx=\"45\" cy=\"45\" r=\"25\" fill=\"none\" stroke=\"#D2691E\" stroke-width=\"2\" />\n      <ns0:circle cx=\"45\" cy=\"45\" r=\"15\" fill=\"none\" stroke=\"#D2691E\" stroke-width=\"1.5\" />\n      <ns0:circle cx=\"45\" cy=\"45\" r=\"8\" fill=\"#D2691E\" />\n      <ns0:path d=\"M45,20 A25,25 0 0,1 70,45 A25,25 0 0,1 45,70 A25,25 0 0,1 20,45 A25,25 0 0,1 45,20\" fill=\"none\" stroke=\"#D2691E\" stroke-width=\"1\" />\n      <ns0:polygon points=\"45,30 52,42 65,42 54,50 58,63 45,55 32,63 36,50 25,42 38,42\" fill=\"none\" stroke=\"#D2691E\" stroke-width=\"1\" />\n    </ns0:pattern>\n  </ns0:defs>\n  <ns0:rect width=\"180\" height=\"180\" fill=\"url(#mandalaPattern)\" />\n</ns0:svg>",
+    "tags": [
+      "islamic",
+      "geometric",
+      "pattern",
+      "tiling",
+      "mandala"
+    ]
+  },
+  {
+    "id": "islamic_medallion_pattern",
+    "name": "Islamic Medallion Pattern",
+    "width": 200.0,
+    "height": 200.0,
+    "viewBoxHeight": 200.0,
+    "mode": "stroke",
+    "svgPath": "<ns0:svg xmlns:ns0=\"http://www.w3.org/2000/svg\" width=\"200\" height=\"200\" viewBox=\"0 0 200 200\">\n  <ns0:defs>\n    <ns0:pattern id=\"IslamicMedallionPattern\" x=\"0\" y=\"0\" width=\"100\" height=\"100\" patternUnits=\"userSpaceOnUse\">\n      <ns0:circle cx=\"50\" cy=\"50\" r=\"30\" fill=\"none\" stroke=\"#2E8B57\" stroke-width=\"2\" />\n      <ns0:circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"none\" stroke=\"#2E8B57\" stroke-width=\"1.5\" />\n      <ns0:circle cx=\"50\" cy=\"50\" r=\"10\" fill=\"none\" stroke=\"#2E8B57\" stroke-width=\"1\" />\n      <ns0:path d=\"M50,20 L50,10 M50,80 L50,90 M20,50 L10,50 M80,50 L90,50\" stroke=\"#2E8B57\" stroke-width=\"1\" />\n      <ns0:polygon points=\"35,35 45,30 55,35 50,45 55,55 45,50 35,55 40,45\" fill=\"none\" stroke=\"#2E8B57\" stroke-width=\"1\" />\n    </ns0:pattern>\n  </ns0:defs>\n  <ns0:rect width=\"200\" height=\"200\" fill=\"url(#IslamicMedallionPattern)\" />\n</ns0:svg>",
+    "tags": [
+      "islamic",
+      "geometric",
+      "pattern",
+      "tiling",
+      "medallion"
+    ]
+  },
+  {
+    "id": "islamic_octagon_pattern",
+    "name": "Islamic Octagon Pattern",
+    "width": 150.0,
+    "height": 150.0,
+    "viewBoxHeight": 150.0,
+    "mode": "stroke",
+    "svgPath": "<ns0:svg xmlns:ns0=\"http://www.w3.org/2000/svg\" width=\"150\" height=\"150\" viewBox=\"0 0 150 150\">\n  <ns0:defs>\n    <ns0:pattern id=\"octagonPattern\" x=\"0\" y=\"0\" width=\"75\" height=\"75\" patternUnits=\"userSpaceOnUse\">\n      <ns0:polygon points=\"37.5,7.5 52.5,7.5 67.5,22.5 67.5,37.5 52.5,52.5 37.5,52.5 22.5,37.5 22.5,22.5\" fill=\"none\" stroke=\"#8B4513\" stroke-width=\"1.5\" />\n      <ns0:polygon points=\"37.5,22.5 52.5,22.5 60,30 52.5,37.5 37.5,37.5 30,30\" fill=\"none\" stroke=\"#8B4513\" stroke-width=\"1\" />\n      <ns0:circle cx=\"37.5\" cy=\"30\" r=\"3\" fill=\"#8B4513\" />\n    </ns0:pattern>\n  </ns0:defs>\n  <ns0:rect width=\"150\" height=\"150\" fill=\"url(#octagonPattern)\" />\n</ns0:svg>",
+    "tags": [
+      "islamic",
+      "geometric",
+      "pattern",
+      "tiling",
+      "octagon"
+    ]
+  },
+  {
+    "id": "islamic_star_pattern_1",
+    "name": "Islamic Star Pattern 1",
+    "width": 200.0,
+    "height": 200.0,
+    "viewBoxHeight": 200.0,
+    "mode": "stroke",
+    "svgPath": "<ns0:svg xmlns:ns0=\"http://www.w3.org/2000/svg\" width=\"200\" height=\"200\" viewBox=\"0 0 200 200\">\n  <ns0:defs>\n    <ns0:pattern id=\"starPattern\" x=\"0\" y=\"0\" width=\"100\" height=\"100\" patternUnits=\"userSpaceOnUse\">\n      <ns0:polygon points=\"50,10 60,40 90,40 65,60 75,90 50,70 25,90 35,60 10,40 40,40\" fill=\"none\" stroke=\"#2c5530\" stroke-width=\"2\" />\n      <ns0:circle cx=\"50\" cy=\"50\" r=\"15\" fill=\"none\" stroke=\"#2c5530\" stroke-width=\"1.5\" />\n    </ns0:pattern>\n  </ns0:defs>\n  <ns0:rect width=\"200\" height=\"200\" fill=\"url(#starPattern)\" />\n</ns0:svg>",
+    "tags": [
+      "islamic",
+      "geometric",
+      "pattern",
+      "tiling",
+      "star"
+    ]
+  },
+  {
+    "id": "islamic_zigzag_pattern",
+    "name": "Islamic Zigzag Pattern",
+    "width": 160.0,
+    "height": 160.0,
+    "viewBoxHeight": 160.0,
+    "mode": "stroke",
+    "svgPath": "<ns0:svg xmlns:ns0=\"http://www.w3.org/2000/svg\" width=\"160\" height=\"160\" viewBox=\"0 0 160 160\">\n  <ns0:defs>\n    <ns0:pattern id=\"islamicZigzagPattern\" x=\"0\" y=\"0\" width=\"80\" height=\"80\" patternUnits=\"userSpaceOnUse\">\n      <ns0:path d=\"M10,20 L25,40 L40,20 L55,40 L70,20\" fill=\"none\" stroke=\"#DC143C\" stroke-width=\"2\" />\n      <ns0:path d=\"M10,50 L25,30 L40,50 L55,30 L70,50\" fill=\"none\" stroke=\"#DC143C\" stroke-width=\"2\" />\n      <ns0:circle cx=\"25\" cy=\"35\" r=\"3\" fill=\"#DC143C\" />\n      <ns0:circle cx=\"40\" cy=\"35\" r=\"3\" fill=\"#DC143C\" />\n      <ns0:circle cx=\"55\" cy=\"35\" r=\"3\" fill=\"#DC143C\" />\n    </ns0:pattern>\n  </ns0:defs>\n  <ns0:rect width=\"160\" height=\"160\" fill=\"url(#islamicZigzagPattern)\" />\n</ns0:svg>",
+    "tags": [
+      "islamic",
+      "geometric",
+      "pattern",
+      "tiling",
+      "zigzag"
+    ]
+  },
+  {
+    "id": "ramadan_geometric_pattern",
+    "name": "Ramadan Geometric Pattern",
+    "width": 160.0,
+    "height": 160.0,
+    "viewBoxHeight": 160.0,
+    "mode": "stroke",
+    "svgPath": "<ns0:svg xmlns:ns0=\"http://www.w3.org/2000/svg\" width=\"160\" height=\"160\" viewBox=\"0 0 160 160\">\n  <ns0:defs>\n    <ns0:pattern id=\"ramadanGeometricPattern\" x=\"0\" y=\"0\" width=\"80\" height=\"80\" patternUnits=\"userSpaceOnUse\">\n      <ns0:rect x=\"10\" y=\"10\" width=\"60\" height=\"60\" fill=\"none\" stroke=\"#228B22\" stroke-width=\"2\" rx=\"5\" ry=\"5\" />\n      <ns0:rect x=\"20\" y=\"20\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"#228B22\" stroke-width=\"1.5\" />\n      <ns0:rect x=\"30\" y=\"30\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"#228B22\" stroke-width=\"1\" />\n      <ns0:circle cx=\"40\" cy=\"40\" r=\"8\" fill=\"#228B22\" />\n      <ns0:polygon points=\"40,25 48,35 60,35 50,42 55,55 40,48 25,55 30,42 20,35 32,35\" fill=\"none\" stroke=\"#228B22\" stroke-width=\"1\" />\n    </ns0:pattern>\n  </ns0:defs>\n  <ns0:rect width=\"160\" height=\"160\" fill=\"url(#ramadanGeometricPattern)\" />\n</ns0:svg>",
+    "tags": [
+      "islamic",
+      "geometric",
+      "pattern",
+      "tiling",
+      "ramadan",
+      "geometric"
+    ]
+  }
+]
