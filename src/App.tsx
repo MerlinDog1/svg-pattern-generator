@@ -9,7 +9,6 @@ import { loadPatternMonsterPatterns, generatePatternMonsterPattern, PatternMonst
 import { loadIroPatterns, generateIroPattern, IroPattern } from './utils/iroPatterns';
 import { loadSveltePatterns, generateSveltePattern, SveltePattern } from './utils/sveltePatterns';
 import { loadCSSPatterns, generateCSSPattern, CSSPattern } from './utils/cssPatterns';
-import { loadTetoCustomPatterns, generateTetoCustomPattern, TetoCustomPattern } from './utils/tetoCustomPatterns';
 import { parseSVGFiles } from './utils/svgUpload';
 
 import { mmToPx } from './utils/unitConversion';
@@ -22,7 +21,6 @@ function App() {
   const [iroPatterns, setIroPatterns] = useState<IroPattern[]>([]);
   const [sveltePatterns, setSveltePatterns] = useState<SveltePattern[]>([]);
   const [cssPatterns, setCSSPatterns] = useState<CSSPattern[]>([]);
-  const [tetoCustomPatterns, setTetoCustomPatterns] = useState<TetoCustomPattern[]>([]);
   const [customPatterns, setCustomPatterns] = useState<CustomPattern[]>([]);
   const [uploadedSVGFiles, setUploadedSVGFiles] = useState<File[]>([]);
 
@@ -48,15 +46,13 @@ function App() {
       loadPatternMonsterPatterns(),
       loadIroPatterns(),
       loadSveltePatterns(),
-      loadCSSPatterns(),
-      loadTetoCustomPatterns()
-    ]).then(([heroPatts, pmPatts, iroPatts, sveltePatts, cssPatts, tetoCustomPatts]) => {
+      loadCSSPatterns()
+    ]).then(([heroPatts, pmPatts, iroPatts, sveltePatts, cssPatts]) => {
       setHeroPatterns(heroPatts);
       setPatternMonsterPatterns(pmPatts);
       setIroPatterns(iroPatts);
       setSveltePatterns(sveltePatts);
       setCSSPatterns(cssPatts);
-      setTetoCustomPatterns(tetoCustomPatts);
       
       // Create pattern config entries for Hero Patterns
       const heroPatternConfigs: PatternConfig[] = heroPatts.map((pattern) => ({
@@ -185,37 +181,8 @@ function App() {
         ],
       }));
       
-      // Create pattern config entries for Teto Custom Patterns
-      const tetoCustomConfigs: PatternConfig[] = tetoCustomPatts.map((pattern) => ({
-        id: `teto-${pattern.id}`,
-        name: pattern.name,
-        category: `🧱 Teto Custom`,
-        description: `Teto Custom: ${pattern.name}`,
-        complexity: 1,
-        parameters: [
-          {
-            id: 'scale',
-            label: 'Scale',
-            type: 'slider' as const,
-            min: 0.25,
-            max: 3,
-            step: 0.25,
-            default: 1,
-          },
-          {
-            id: 'strokeWidth',
-            label: 'Stroke Width',
-            type: 'slider' as const,
-            min: 0.5,
-            max: 10,
-            step: 0.5,
-            default: 2,
-          },
-        ],
-      }));
-      
       // Combine all patterns with deduplication by ID
-      const allConfigs = [...patternCatalog, ...heroPatternConfigs, ...patternMonsterConfigs, ...iroConfigs, ...svelteConfigs, ...cssConfigs, ...tetoCustomConfigs, ...customPatterns];
+      const allConfigs = [...patternCatalog, ...heroPatternConfigs, ...patternMonsterConfigs, ...iroConfigs, ...svelteConfigs, ...cssConfigs, ...customPatterns];
       
       // Remove duplicates based on pattern ID
       const seenIds = new Set();
@@ -598,18 +565,6 @@ function App() {
       }
     }
     
-    // Check if this is a Teto Custom pattern
-    if (state.selectedPattern.startsWith('teto-')) {
-      const patternId = state.selectedPattern.substring(5); // Remove 'teto-' prefix
-      const tetoPattern = tetoCustomPatterns.find((p) => p.id === patternId);
-      
-      if (tetoPattern) {
-        const scale = state.patternParameters.scale || 1;
-        const strokeWidth = state.patternParameters.strokeWidth || 2;
-        return generateTetoCustomPattern(tetoPattern, pixelWidth, pixelHeight, scale, strokeWidth);
-      }
-    }
-    
     // Check if this is a custom pattern
     if (state.selectedPattern.startsWith('custom-')) {
       console.log('🎨 Rendering custom pattern:', state.selectedPattern);
@@ -656,7 +611,7 @@ function App() {
       pixelHeight,
       state.patternParameters
     );
-  }, [state.selectedPattern, pixelWidth, pixelHeight, state.patternParameters, heroPatterns, patternMonsterPatterns, iroPatterns, sveltePatterns, cssPatterns, tetoCustomPatterns, customPatterns]);
+  }, [state.selectedPattern, pixelWidth, pixelHeight, state.patternParameters, heroPatterns, patternMonsterPatterns, iroPatterns, sveltePatterns, cssPatterns, customPatterns]);
 
   const handlePatternChange = (patternId: string) => {
     setState((prev) => ({
